@@ -15,5 +15,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "vite": "^4.4.9"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
