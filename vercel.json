@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "framework": "vite",
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
@@ -7,13 +8,13 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/node"
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "/index.html"
     }
   ]
 } 
